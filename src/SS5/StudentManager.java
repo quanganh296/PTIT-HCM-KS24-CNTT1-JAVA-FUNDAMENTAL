@@ -4,10 +4,10 @@ import java.util.regex.Pattern;
 
 public class StudentManager {
 
-    String[] studentIds = new String[100];
-    int currentSize = 0;
+    static String[] studentIds = new String[100];
+    static int currentSize = 0;
 
-    final String MSSV_REGEX = "^B\\d{7}$";
+    static final String MSSV_REGEX = "^B\\d{7}$";
 
     public void showMenu() {
         System.out.println("\n========= STUDENT ID MANAGER =========");
