@@ -16,6 +16,9 @@ public class Bai1 {
             this.diemTB = diemTB;
         }
 
+        public Student(String an) {
+        }
+
         // Phương thức hiển thị thông tin
         public void hienThiThongTin() {
             System.out.println("Mã SV: " + maSV);
