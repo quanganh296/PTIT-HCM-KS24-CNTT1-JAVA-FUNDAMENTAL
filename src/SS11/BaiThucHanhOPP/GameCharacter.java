@@ -37,7 +37,6 @@ abstract class GameCharacter {
             System.out.println(name + " đã bị hạ gục.");
         }
     }
-
     public void displayInfo() {
         System.out.println("Tên: " + name + " | HP: " + hp);
     }
